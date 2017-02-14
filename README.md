@@ -1,24 +1,15 @@
-# README
+# Snipp share simplified Api
+  This api was created to help build my snipp-share app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  ### The Front end can be found at:
+    https://github.com/neilburd/snipp-share-front-end/tree/master
 
-Things you may want to cover:
+  currently running at:
+    https://intense-plains-13482.herokuapp.com/snippets
 
-* Ruby version
+  * This was built using Rails api
 
-* System dependencies
+  * This uses Postgres for the database
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  * There are currently one model in use:
+      * the snippet

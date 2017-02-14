@@ -26,6 +26,7 @@ class SnippetsController < ApplicationController
 
   # PATCH/PUT /snippets/1
   def update
+    puts snippet_params
     if @snippet.update(snippet_params)
       render json: @snippet
     else
